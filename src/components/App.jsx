@@ -1,3 +1,7 @@
+//import { useState } from 'react'
+//import reactLogo from './assets/react.svg'
+
+
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
@@ -5,6 +9,8 @@ import Note from "./Note";
 import notes from "../notes";
 
 function App() {
+  //const [count, setCount] = useState(0)
+
   return (
     <div>
         <Header />
@@ -17,6 +23,8 @@ function App() {
         <Footer />
     </div>
   );
+
+  
 }
 
-export default App;
+export default App
